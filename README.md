@@ -43,3 +43,5 @@ Kurjeris: prekių pristatymas, būsenos atnaujinimas
 Išmanioji sutartis užtikrina skaidrų, saugų ir efektyvų verslo procesą.
 
 ### Testavimas atliktas lokaliame ir Goerli testnet'e 
+
+https://sepolia.etherscan.io/address/0x2557ac91f78fa64dbd1a462e9fe10d8dac4573da
