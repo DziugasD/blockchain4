@@ -1,3 +1,5 @@
+## Blockchain 4 darbas
+
 Šiame verslo modelyje dalyvauja tokios šalys: pirkėjas, pardavėjas, kurjeris, o pati išmanioji sutartis užtikrina "saugų" prekių pardavimą/pirkimą ir pristatymą.
 
 Verslo modelis: Business-to-Business (B2B)
@@ -39,3 +41,5 @@ Pardavėjas: prekių paruošimas, siuntimo organizavimas
 Kurjeris: prekių pristatymas, būsenos atnaujinimas
 
 Išmanioji sutartis užtikrina skaidrų, saugų ir efektyvų verslo procesą.
+
+### Testavimas atliktas lokaliame ir Goerli testnet'e 
