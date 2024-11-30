@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@metamask/sdk": "^0.31.1",
+    "dotenv": "^16.4.5",
+    "dotenv-webpack": "^8.1.0",
     "web3": "^1.5.2"
   },
   "devDependencies": {

@@ -1,4 +1,4 @@
-
+const Dotenv = require('dotenv-webpack');
 const path = require('path');
 
 module.exports = {
@@ -13,5 +13,8 @@ module.exports = {
         },
         compress: true,
         port: 9000,
-    }
+    },
+    plugins: [
+        new Dotenv()
+    ]
 };
