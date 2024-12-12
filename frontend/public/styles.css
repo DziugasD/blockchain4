@@ -86,6 +86,7 @@ button {
 .action-btn {
     background-color: #f0f0f0;
     color: var(--text-color);
+    margin-top: 1rem;
 }
 
 .action-btn:hover {
@@ -117,4 +118,20 @@ button {
 
 .error {
     color: var(--error-color);
+}
+
+.user-contracts {
+    margin-top: 2rem;
+}
+
+.contract-item {
+    background-color: var(--surface-color);
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.contract-item p {
+    margin: 0.5rem 0;
 }

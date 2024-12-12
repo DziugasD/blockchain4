@@ -16,30 +16,16 @@
             <section class="order-creation">
                 <h2>Create New Order</h2>
                 <div class="form-group">
-                    <label for="sellerAddress">Seller Address:</label>
-                    <input type="text" id="sellerAddress" placeholder="0x...">
+                    <label for="regitra Address">Regitra Address:</label>
+                    <input type="text" id="regitraAddress" placeholder="0x...">
                     
-                    <label for="courierAddress">Courier Address:</label>
-                    <input type="text" id="courierAddress" placeholder="0x...">
+                    <label for="egzaminuotojas Address">Egzaminuotojas Address:</label>
+                    <input type="text" id="egzaminuotojasAddress" placeholder="0x...">
                     
                     <label for="amount">Amount (ETH):</label>
                     <input type="number" id="amount" step="0.01" value="0.1">
                     
                     <button id="activateContract" class="primary-btn">Create Order</button>
-                </div>
-            </section>
-
-            <section class="order-management">
-                <h2>Manage Order</h2>
-                <div class="form-group">
-                    <label for="orderId">Order ID:</label>
-                    <input type="number" id="orderId" placeholder="Enter order ID">
-                    
-                    <div class="action-buttons">
-                        <button id="confirmOrder" class="action-btn">Confirm Order (Seller)</button>
-                        <button id="shipOrder" class="action-btn">Ship Order (Courier)</button>
-                        <button id="confirmDelivery" class="action-btn">Confirm Delivery (Buyer)</button>
-                    </div>
                 </div>
             </section>
 
@@ -51,6 +37,11 @@
                     <button id="getData" class="secondary-btn">Get Order Details</button>
                 </div>
                 <div id="displayData" class="order-display"></div>
+            </section>
+
+            <section class="user-contracts">
+                <h2>Your Contracts/Orders</h2>
+                <div id="userContracts"></div>
             </section>
         </main>
     </div>

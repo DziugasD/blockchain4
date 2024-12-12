@@ -1,47 +1,46 @@
 ## Blockchain 4 darbas
 
-Šiame verslo modelyje dalyvauja tokios šalys: pirkėjas, pardavėjas, kurjeris, o pati išmanioji sutartis užtikrina "saugų" prekių pardavimą/pirkimą ir pristatymą.
+Šiame modelyje dalyvauja tokios šalys: Vairuotojas, Regitra, egzaminuotojas, o išmanioji sutartis užtikrina saugų vairavimo egzamino procesą.
 
-Verslo modelis: Business-to-Business (B2B)
+Verslo modelis: Vairavimo egzamino registracija ir vykdymas
 
-* Mažmenininkas užsako prekes iš gamintojo. Gamintojas patikrina prekių kiekį, surenka produktus, supakuoja, paruošia ir išsiunčia. Mažmenininkas ir gamintojas turi patikimą komercinį santykį.
-* Siuntimą atlieka kurjeris, kurį užsako gamintojas, ir jie taip pat turi patikimą komercinį santykį.
-* Patikimas komercinis santykis tarp mažmenininko ir kurjerio yra tranzityvus dėl bendro santykio su gamintoju.
-* Patikimas komercinis santykis yra labai svarbus, nes tradicinėje rinkoje tai būtina. Mokėjimas iš mažmenininko gamintojui įvyksta praėjus kelioms dienoms po prekių gavimo. Ir mokėjimas iš gamintojo kurjeriui įvyksta praėjus kelioms dienoms po pristatymo patvirtinimo. Jei nebūtų pasitikėjimo, jie nepasitikėtų vieni kitais ir nesudarytų sandorių. Tai neskatina konkurencijos dėl geriausių kainų, paslaugų ir produktų.
+* Vairuotojas registruojasi egzaminui ir deponuoja mokestį sutartyje.
+* Regitra patvirtina registraciją ir paskiria egzaminuotoją.
+* Egzaminuotojas atlieka egzaminą ir atnaujina būseną.
+* Vairuotojas patvirtina egzamino rezultatus.
+* Automatinis atsiskaitymas su Regitra ir egzaminuotoju.
 
-![Verslo modelio schema](image.png)
-*Verslo modelio schema, rodanti pirkėjo, pardavėjo ir kurjerio sąveiką išmaniojoje sutartyje*
+![alt text](image.png)
 
 Išmaniosios sutarties pagrindinės funkcijos:
 
-Pirkimo-pardavimo proceso valdymas
-
-Užtikrinti saugų mokėjimą
-Kontroliuoti prekių būseną
-Automatizuoti atsiskaitymus tarp dalyvių
+* Egzamino proceso valdymas
+* Saugus mokėjimų valdymas
+* Egzamino būsenos kontrolė
+* Automatizuoti atsiskaitymai
 
 Pagrindiniai žingsniai:
 
-Pirkėjas užsako prekes ir deponuoja sutartyje mokėjimą
-Pardavėjas patvirtina užsakymą ir paruošia prekes
-Kurjeris paima ir pristato prekes
-Pirkėjas patvirtina prekių gavimą
-Automatinis atsiskaitymas visiems dalyviams
+1. Vairuotojas užsiregistruoja egzaminui ir sumoka mokestį
+2. Regitra patvirtina užsakymą ir paskiria egzaminuotoją
+3. Egzaminuotojas vykdo egzaminą
+4. Vairuotojas patvirtina egzamino rezultatus
+5. Automatinis atsiskaitymas su Regitra ir egzaminuotoju
 
 Saugumo mechanizmai:
 
-Mokėjimo sulaikymas iki galutinio patvirtinimo
-Baudų nustatymas už sutarties sąlygų pažeidimą
-Skaidrus ir audituojamas procesas
+* Mokėjimo sulaikymas iki egzamino pabaigos
+* Baudų nustatymas už sąlygų pažeidimą
+* Skaidrus ir audituojamas procesas
 
 Dalyvių rolės:
 
-Pirkėjas: užsakymas, mokėjimas, gavimo patvirtinimas
-Pardavėjas: prekių paruošimas, siuntimo organizavimas
-Kurjeris: prekių pristatymas, būsenos atnaujinimas
+* Vairuotojas: registracija, mokėjimas, rezultatų patvirtinimas
+* Regitra: registracijos patvirtinimas, egzaminuotojo paskyrimas
+* Egzaminuotojas: egzamino vykdymas, būsenos atnaujinimas
 
-Išmanioji sutartis užtikrina skaidrų, saugų ir efektyvų verslo procesą.
+Išmanioji sutartis užtikrina skaidrų, saugų ir efektyvų vairavimo egzamino procesą.
 
 ### Testavimas atliktas lokaliame ir Goerli testnet'e 
 
-https://sepolia.etherscan.io/address/0x2557ac91f78fa64dbd1a462e9fe10d8dac4573da
+https://sepolia.etherscan.io/address/0x0672a1aa5764847fa78b4A99D0e31aFFB12b8c2c 
